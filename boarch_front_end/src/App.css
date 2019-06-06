@@ -1,0 +1,100 @@
+.App {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.App__button, .Home__button {
+  background: #2ecc71;
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  outline-color: #2ecc71;
+  transition: 0.2s;
+}
+
+.App__button:hover {
+  background: #27ae60;
+}
+
+.Home__input {
+  border-radius: 3px;
+  padding: 10px;
+  outline-color: #2ecc71;
+  font-weight: bold;
+  border: 2px solid #2ecc71;
+  margin-bottom: 20px;
+}
+
+.Home__search {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App__results {
+  display: block;
+  padding: 0;
+  text-align: center;
+}
+
+.Book {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Book__input {
+  display: block;
+  border-radius: 3px;
+  padding: 10px;
+  outline-color: #2ecc71;
+  font-weight: bold;
+  border: 2px solid #2ecc71;
+  margin-bottom: 20px;
+}
+
+.Book__add {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 500px;
+}
+
+.Book__delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 500px;
+}
+
+.Library {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Library__add {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 500px;
+}
+
+.Library__input {
+  display: block;
+  border-radius: 3px;
+  padding: 10px;
+  outline-color: #2ecc71;
+  font-weight: bold;
+  border: 2px solid #2ecc71;
+  margin-bottom: 20px;
+}

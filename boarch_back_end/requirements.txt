@@ -1,0 +1,7 @@
+flask
+sqlalchemy
+flask_cors
+psycopg2
+requests
+gunicorn
+bs4
